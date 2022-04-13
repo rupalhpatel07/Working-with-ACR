@@ -89,5 +89,5 @@ jobs:
       run: helm chart export bcglabacr01.azurecr.io/charts-rupaldemo01-api:latest --destination ./install
 
     - name: Helm Chart Install
-      run: helm upgrade --namespace ns-qa --install --set image.tag=latest rupaldemo01-api ./install/rupaldemo01-api # release name chart name
+      run: helm chart upgrade --namespace ns-qa --install --set image.tag=latest rupaldemo01-api ./install/rupaldemo01-api # release name chart name
 

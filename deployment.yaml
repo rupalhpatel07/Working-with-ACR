@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rupal01
+spec:
+  selector:
+    matchLabels:
+      app: rupal01-pod
+  template:
+    metadata:
+      labels:
+        app: rupal01-pod
+    spec:
+      containers:
+<<<<<<< HEAD
+      - name: rupal01-container
+        image: bcglabacr01.azurecr.io/rupal01:v1
+=======
+      - name: sidapp01-container
+        image: bcglabacr01.azurecr.io/workingwithacr:v2
+>>>>>>> 8b855049d6e3aa181804fcefb478d73324117ee4
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80

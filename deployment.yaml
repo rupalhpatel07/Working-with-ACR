@@ -12,13 +12,12 @@ spec:
         app: rupal01-pod
     spec:
       containers:
-<<<<<<< HEAD
       - name: rupal01-container
         image: bcglabacr01.azurecr.io/rupal01:v1
-=======
-      - name: sidapp01-container
-        image: bcglabacr01.azurecr.io/workingwithacr:v2
->>>>>>> 8b855049d6e3aa181804fcefb478d73324117ee4
+
+      - name: rupal01-container
+        image: bcglabacr01.azurecr.io/rupal01:v1
+
         resources:
           limits:
             memory: "128Mi"

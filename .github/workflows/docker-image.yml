@@ -49,7 +49,7 @@ jobs:
       run: |
        helm chart save ./rupalemo01-api-0.1.0.tgz bcglabacr01.azurecr.io/charts-rupaldemo01-api:latest
     - name: Helm chart Push
-      run: helm chart push bcglabacr01.azurecr.io/charts-rupaldemo01-api:latest
+      run: cd.. | helm chart push bcglabacr01.azurecr.io/charts-rupaldemo01-api:latest
   
   deploy:
     runs-on: ubuntu-latest

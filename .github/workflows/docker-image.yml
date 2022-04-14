@@ -90,3 +90,4 @@ jobs:
 
     - name: Helm Chart Install
       run: helm upgrade --namespace ns-qa --install --set image.tag=latest rupaldemo01-api ./install/rupaldemo01-api # release name chart name
+      

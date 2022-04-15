@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Working_with_ACR
-build_property.ProjectDir = c:\Trainings\VMware\ACR and Actions\Working-with-ACR\
+build_property.ProjectDir = /Users/rupatel/docker-training/RupalApp01/Working-with-ACR/

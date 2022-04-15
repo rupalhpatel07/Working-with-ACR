@@ -13,11 +13,7 @@ spec:
     spec:
       containers:
       - name: rupal01-container
-        image: bcglabacr01.azurecr.io/rupal01:v1
-
-      - name: rupal01-container
-        image: bcglabacr01.azurecr.io/rupal01:v1
-
+        image: bcglabacr01.azurecr.io/rupal01:v2
         resources:
           limits:
             memory: "128Mi"
